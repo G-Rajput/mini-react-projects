@@ -1,0 +1,12 @@
+.color-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.btn-gap {
+  margin: 5px;
+}
