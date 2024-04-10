@@ -7,6 +7,7 @@ import ImageSlider from "./components/image-slider/ImageSlider";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import TreeNav from "./components/tree-view/TreeNav";
 import menus from "./components/tree-view/data";
+import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 
 const App: React.FC = () => {
   return (
@@ -27,7 +28,10 @@ const App: React.FC = () => {
       {/* <LoadMoreData /> */}
 
       {/* Tree View Component / Menu UI component / Recursive navigation menu */}
-      <TreeNav menus={menus} />
+      {/* <TreeNav menus={menus} /> */}
+
+      {/* QR Code Generator */}
+      <QRCodeGenerator />
     </div>
   );
 };
