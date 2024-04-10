@@ -5,6 +5,8 @@ import RandomColor from "./components/random-color/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
+import TreeNav from "./components/tree-view/TreeNav";
+import menus from "./components/tree-view/data";
 
 const App: React.FC = () => {
   return (
@@ -22,7 +24,10 @@ const App: React.FC = () => {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1} /> */}
 
       {/* Load more products components  */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+
+      {/* Tree View Component / Menu UI component / Recursive navigation menu */}
+      <TreeNav menus={menus} />
     </div>
   );
 };

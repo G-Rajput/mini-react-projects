@@ -1,0 +1,26 @@
+import React from "react";
+import MenuItem from "./MenuItem";
+
+interface MenuItemType {
+  label: string;
+  to: string;
+  children?: MenuItemType[];
+}
+
+interface MenuListProps {
+  list: MenuItemType[];
+}
+
+const MenuList: React.FC<MenuListProps> = ({ list }) => {
+  return (
+    <ul className="menu-list-container">
+      {list && list.length
+        ? list.map((listItem, index) => (
+            <MenuItem key={index} item={listItem} />
+          ))
+        : null}
+    </ul>
+  );
+};
+
+export default MenuList;
