@@ -1,0 +1,29 @@
+.main_wrapper {
+  width: 100%;
+}
+.accordian_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100vh;
+}
+.accordian_inner_wrapper {
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+.accordian_questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.enable_button {
+  cursor: pointer;
+  background-color: #015659;
+  margin: 20px;
+  color: white;
+}
+.expand {
+  font-size: 30px;
+}
