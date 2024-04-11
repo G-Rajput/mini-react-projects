@@ -11,6 +11,7 @@ import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabTest from "./components/custom-tabs/TabTest";
+import ModalTest from "./components/custom-modal-component/ModalTest";
 
 const App: React.FC = () => {
   return (
@@ -43,7 +44,10 @@ const App: React.FC = () => {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* Custom tabs Component */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* Custom Modal PopUp */}
+      <ModalTest />
     </div>
   );
 };
