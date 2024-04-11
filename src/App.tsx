@@ -13,6 +13,7 @@ import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabTest from "./components/custom-tabs/TabTest";
 import ModalTest from "./components/custom-modal-component/ModalTest";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
+import SearchAutoComplete from "./components/search-auto-complete-with-api/SearchAutoComplete";
 
 const App: React.FC = () => {
   return (
@@ -52,6 +53,9 @@ const App: React.FC = () => {
 
       {/* Github Profile Finder */}
       <GithubProfileFinder />
+
+      {/* Search Auto Complete with api  */}
+      <SearchAutoComplete />
     </div>
   );
 };
