@@ -12,6 +12,7 @@ import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabTest from "./components/custom-tabs/TabTest";
 import ModalTest from "./components/custom-modal-component/ModalTest";
+import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 
 const App: React.FC = () => {
   return (
@@ -47,7 +48,10 @@ const App: React.FC = () => {
       {/* <TabTest /> */}
 
       {/* Custom Modal PopUp */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      {/* Github Profile Finder */}
+      <GithubProfileFinder />
     </div>
   );
 };
