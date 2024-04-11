@@ -52,7 +52,7 @@ const App: React.FC = () => {
       {/* <ModalTest /> */}
 
       {/* Github Profile Finder */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
 
       {/* Search Auto Complete with api  */}
       <SearchAutoComplete />
