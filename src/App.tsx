@@ -10,6 +10,7 @@ import menus from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
+import TabTest from "./components/custom-tabs/TabTest";
 
 const App: React.FC = () => {
   return (
@@ -39,7 +40,10 @@ const App: React.FC = () => {
       {/* <LightDarkMode /> */}
 
       {/* Scroll Indicator component */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Custom tabs Component */}
+      <TabTest />
     </div>
   );
 };
