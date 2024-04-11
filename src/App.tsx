@@ -8,6 +8,7 @@ import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import TreeNav from "./components/tree-view/TreeNav";
 import menus from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
+import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
 
 const App: React.FC = () => {
   return (
@@ -31,7 +32,10 @@ const App: React.FC = () => {
       {/* <TreeNav menus={menus} /> */}
 
       {/* QR Code Generator */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* Light and dark theme switch */}
+      <LightDarkMode />
     </div>
   );
 };
