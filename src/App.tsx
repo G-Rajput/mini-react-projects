@@ -19,6 +19,7 @@ import FeatureFlagGlobalState from "./components/feature-flag/context";
 import FeatureFlags from "./components/feature-flag/FeatureFlags";
 import UseFetchHookTest from "./components/use-fetch/UseFetchHookTest";
 import UseOnclickOutsideTest from "./components/use-outside-click/UseOnclickOutsideTest";
+import UseWindowResizeTest from "./components/use-window-resize/UseWindowResizeTest";
 
 const App: React.FC = () => {
   return (
@@ -75,6 +76,9 @@ const App: React.FC = () => {
 
       {/* Use Onclick Outside Hook Test */}
       <UseOnclickOutsideTest />
+
+      {/* Use Window Resize Hook Test */}
+      <UseWindowResizeTest />
     </div>
   );
 };
