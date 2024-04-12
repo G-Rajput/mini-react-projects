@@ -15,6 +15,8 @@ import ModalTest from "./components/custom-modal-component/ModalTest";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 import SearchAutoComplete from "./components/search-auto-complete-with-api/SearchAutoComplete";
 import TicTacToe from "./components/tic-tac-toe/TicTacToe";
+import FeatureFlagGlobalState from "./components/feature-flag/context";
+import FeatureFlags from "./components/feature-flag/FeatureFlags";
 
 const App: React.FC = () => {
   return (
@@ -59,7 +61,12 @@ const App: React.FC = () => {
       {/* <SearchAutoComplete /> */}
 
       {/* Tic Tac Toe  */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* Feature Flag Implementation  */}
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
     </div>
   );
 };
