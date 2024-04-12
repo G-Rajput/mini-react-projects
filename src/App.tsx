@@ -20,6 +20,7 @@ import FeatureFlags from "./components/feature-flag/FeatureFlags";
 import UseFetchHookTest from "./components/use-fetch/UseFetchHookTest";
 import UseOnclickOutsideTest from "./components/use-outside-click/UseOnclickOutsideTest";
 import UseWindowResizeTest from "./components/use-window-resize/UseWindowResizeTest";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollToTopAndBottom";
 
 const App: React.FC = () => {
   return (
@@ -72,13 +73,16 @@ const App: React.FC = () => {
       </FeatureFlagGlobalState> */}
 
       {/* useFetch - Custom Hook Test*/}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
 
       {/* Use Onclick Outside Hook Test */}
-      <UseOnclickOutsideTest />
+      {/* <UseOnclickOutsideTest /> */}
 
       {/* Use Window Resize Hook Test */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+
+      {/* Scroll to Top and Bottom */}
+      <ScrollToTopAndBottom />
     </div>
   );
 };
